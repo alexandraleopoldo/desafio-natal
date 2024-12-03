@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+ height: 100vh;
+ font-family: "Archivo", sans-serif;
+}
+
+button {
+ background-color: #CD3C32;
+ width: 120px;
+ height: 26px;
+ color: white;
+ border: #CD3C32;
+ border-radius: 2px;
+ font-family: "Roboto", sans-serif;
+ font-size: 10px;
+ font-weight: 500;
+}
