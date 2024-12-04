@@ -1,6 +1,11 @@
 <script setup>
 import loja from "../assets/loja.png"
 import logo from "../assets/logo.png"
+
+const doacao = () => {
+  window.open("https://doacoes.criancaesperanca.unesco.org/", "_blank");
+};
+
 </script>
 
 <template>
@@ -11,7 +16,8 @@ import logo from "../assets/logo.png"
                 <span>plataforma de doação</span>
             para espalhar alegria</h1>
             <p>Nessas festas de fim de ano mande um presente para a pessoa amada e compartilhe a alegria do Natal.</p>
-            <a href="https://doacoes.criancaesperanca.unesco.org/" target="_blank"><button>FAZER UMA DOAÇÃO</button></a>
+            <button @click="doacao" class="estilo-button">FAZER UMA DOAÇÃO</button>
+
 
         </div>
         <div class="image">
@@ -22,6 +28,7 @@ import logo from "../assets/logo.png"
 
 <style scoped lang="scss">
  section {
+    width: 100%;
     display: flex;
     align-items: center;
     background-color: #FFE9E8;
@@ -32,16 +39,35 @@ import logo from "../assets/logo.png"
 .texto-inicio {
     display: flex;
     flex-direction: column;
-    width: 35%;
+    width: 30%;
     padding: 30px;
     justify-self: end;
-    background-color: brown;
     gap: 20px;
+
+    img {
+        width: 20%;
+    }
+
+    h1 {
+        font-size: 34px;
+    }
+
+    p {
+          width: 80%;
+          line-height: 30px;
+          font-size: 16px;
+          font-weight: 400;
+        }
+
+    span {
+        color:  #CD3C32;
+        
+    }
 }
 
  .image {
-    width: 45%;
-    background-color: aqua;
+    width: 40%;
+   
     
    img{
     width: 60%;

@@ -28,14 +28,14 @@ import logo from "../assets/logo.png"
  footer {
     display: flex;
     align-items: center;
-    height: 60px;
+    height: 80px;
     justify-content: space-around;
-    background-color:  #FFE9E8;
+    background-color:  #f0bbb9;
  }
 
  .logo-footer {
-    width: 120px;
-    height: 30px;
+    width: 140px;
+    height: 36px;
  }
 
  div {
@@ -43,7 +43,7 @@ import logo from "../assets/logo.png"
     align-items: center;
     gap: 20px;
     img {
-        width: 30px;
+        width: 40px;
     }
  }
 </style>

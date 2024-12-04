@@ -11,12 +11,14 @@ body {
 
 button {
  background-color: #CD3C32;
- width: 120px;
- height: 26px;
+ width: 200px;
+ height: 30px;
  color: white;
  border: #CD3C32;
- border-radius: 2px;
+ border-radius: 4px;
  font-family: "Roboto", sans-serif;
  font-size: 10px;
  font-weight: 500;
+ cursor: pointer;
 }
+
