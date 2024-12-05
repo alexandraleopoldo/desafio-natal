@@ -4,7 +4,7 @@ import { ref, computed, onMounted, onBeforeUnmount } from "vue";
 
 const tempoRestante = ref(1 * 2 * 60 * 60); 
 
-/
+
 let idIntervalo;
 onMounted(() => {
   idIntervalo = setInterval(() => {
